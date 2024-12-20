@@ -1,2 +1,2 @@
 # CLCNet
-CLCNet: a chromosome-aware and contrastive learning network for genomic prediction in plants
+CLCNet: a contrastive learning and chromosome-aware network for genomic prediction in plants
