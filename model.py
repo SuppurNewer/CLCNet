@@ -84,6 +84,18 @@ class DeepGS(nn.Module):
         x = self.fc2(x)
         x = self.dropout3(x)
         return x
+
+class DeepGSpre(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.conv1 = nn.Conv1d(in_channels=1, out_channels=8, kernel_size=18, stride=1)
+        self.pool = nn.MaxPool1d(kernel_size=4, stride=4)
+
+    def forward(self, x):
+        x = F.relu(self.conv1(x))
+        x = self.pool(x)
+        x = x.view(x.size(0), -1)
+        return x
         
 class DNNGP(nn.Module):
     def __init__(self, input_dim):
