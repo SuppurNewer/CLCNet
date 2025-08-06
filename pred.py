@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
-from model import CLCNet_origin
+from model import CLCNet
 import time
 import argparse
 
@@ -68,7 +68,7 @@ class CLCNetEvaluator:
                     break
 
                 model_file = os.path.join(self.model_path, f'{self.GSTP_NAME}_{trait}_fold_{fold}_local_aware.pth')
-                model = CLCNet_origin(shuffle=False, input_dim=x_cat.shape[1], shared_dim=[4096, 2048, 1024]).to(self.device)
+                model = CLCNet(input_dim=x_cat.shape[1], shared_dim=[4096, 2048, 1024]).to(self.device)
 
                 ckpt = torch.load(model_file, map_location=self.device)
                 model.load_state_dict(ckpt['net'])
