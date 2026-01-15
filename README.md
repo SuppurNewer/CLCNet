@@ -37,7 +37,7 @@ python ChromosomeAwareProcessor.py \
   --data_dir example \
   --traits Trait1 Trait2
 ```
-### Processed results
+### 2.1 Processed results
 Processed results are saved under:
 ```php-template
 data_preprocess/<gstp_name>/<trait>/ directory
@@ -55,7 +55,7 @@ For each trait:
 - X – genotype data
 - y – standardized phenotype values
 - samples – sample IDs
-### Feature selection
+### 2.2 Feature selection
 After generating feature importance files, selected SNPs can be combined using:
 ```bash
 python ChromosomeAwareSelected.py \
@@ -73,7 +73,7 @@ Arguments:
 | `--chr_name_file` | str  | Path to a text file listing chromosome names, one per line        |
 | `--data_path`     | str  | Input path containing `data_preprocess/<gstp_name>/<trait>/`      |
 | `--save_path`     | str  | Output path where selected features will be saved                 |
-### Selected Feature Outputs
+### 2.3 Selected Feature Outputs
 After running ChromosomeAwareSelected.py, results are saved under:
 ```php-template
 data_selected/<gstp_name>/<trait>/
@@ -148,6 +148,7 @@ jw.huang@genetics.ac.cn
   year    = {2024}
 }
 ```
+
 
 
 
