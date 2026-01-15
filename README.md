@@ -136,10 +136,6 @@ If you find this work useful, please cite:
 ```markdown
 https://doi.org/10.1101/2024.12.29.630569
 ```
-
-## Contact
-jw.huang@genetics.ac.cn
-
 ```bibtex
 @article{
   title   = {CLCNet: A Contrastive Learning and Chromosome-aware Network for Genomic Prediction in Plants},
@@ -148,6 +144,9 @@ jw.huang@genetics.ac.cn
   year    = {2024}
 }
 ```
+
+
+
 
 
 
