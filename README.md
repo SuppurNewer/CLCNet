@@ -5,12 +5,8 @@
 We propose **CLCNet**, a novel deep learning framework for genomic prediction that integrates contrastive learning with a multi-task predictive architecture and a chromosome-aware feature selection strategy.
 The framework is specifically designed to address the challenges of high-dimensional genomic data and limited sample sizes in plant breeding applications.
 <p align="center">
-  <a href="https://github.com/user-attachments/assets/d92971eb-e70d-4b28-a0eb-455800715a41">
-    <img src="https://github.com/user-attachments/assets/d92971eb-e70d-4b28-a0eb-455800715a41"
-         width="600" alt="CLCNet architecture (click to enlarge)"/>
-  </a>
+  <img src="Fig/Figure 1.png" width="600" alt="CLCNet architecture"/>
 </p>
-
 CLCNet consists of two key components:
 (i) a **chromosome-aware (CA) module** for structured SNP representation, and (ii) a **contrastive learning module** to enhance representation robustness and generalization.
 
@@ -151,3 +147,4 @@ jw.huang@genetics.ac.cn
   year    = {2024}
 }
 ```
+
