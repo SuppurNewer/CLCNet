@@ -7,6 +7,7 @@ The framework is specifically designed to address the challenges of high-dimensi
 <p align="center">
   <img src="Fig/Figure 1.png" width="600" alt="CLCNet architecture"/>
 </p>
+
 CLCNet consists of two key components:
 (i) a **chromosome-aware (CA) module** for structured SNP representation, and (ii) a **contrastive learning module** to enhance representation robustness and generalization.
 
@@ -147,4 +148,5 @@ jw.huang@genetics.ac.cn
   year    = {2024}
 }
 ```
+
 
