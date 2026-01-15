@@ -132,10 +132,7 @@ ChromosomeAwareProcessor.py → ChromosomeAwareSelected.py → train.py → pred
 3.Selected features and sample indices are stored for reproducibility and downstream analyses.  
 4.Validation split is automatically handled (default: 80/20 split).  
 ## Citation
-If you find this work useful, please cite:
-```markdown
-https://doi.org/10.1101/2024.12.29.630569
-```
+If you find this work useful, please cite: https://doi.org/10.1101/2024.12.29.630569
 ```bibtex
 @article{
   title   = {CLCNet: A Contrastive Learning and Chromosome-aware Network for Genomic Prediction in Plants},
@@ -145,6 +142,7 @@ https://doi.org/10.1101/2024.12.29.630569
   year    = {2024}
 }
 ```
+
 
 
 
