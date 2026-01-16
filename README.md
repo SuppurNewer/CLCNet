@@ -137,11 +137,12 @@ If you find this work useful, please cite: https://doi.org/10.1101/2024.12.29.63
 @article{
   title   = {CLCNet: A Contrastive Learning and Chromosome-aware Network for Genomic Prediction in Plants},
   author  = {Jiangwei Huang#, Zhihan Yang#, Mou Yin, Chao Li, Jinmin Li, Yu Wang, Lu Huang,
-             Miaomiao Li, Chengzhi Liang, Fei He, Rongcheng Han, and Yuqiang Jiang*},
+             Miaomiao Li, Chengzhi Liang, Fei He, Rongcheng Han* and Yuqiang Jiang*},
   journal = {bioRxiv},
   year    = {2024}
 }
 ```
+
 
 
 
