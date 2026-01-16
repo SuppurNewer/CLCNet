@@ -47,8 +47,8 @@ For each trait:
 | ------------------------------------------- | ------------------------------------------------------------- |
 | `data_full_<trait>.npz`                     | Standardized genotype and phenotype arrays for model training |
 | `samples_<trait>.txt`                       | List of sample names                                          |
-| `all_<trait>_feature_importance.csv`        | Global SNP feature importance from LightGBM                   |
-| `all_<trait>_lgb.txt`                       | Global LightGBM model file                                    |
+| `all_<trait>_feature_importance.csv`        | SNP feature importance from LightGBM                   |
+| `all_<trait>_lgb.txt`                       | LightGBM model file                                    |
 | `chr<chrom>_<trait>_feature_importance.csv` | Chromosome-specific SNP feature importance                    |
 | `chr<chrom>_<trait>_lgb.txt`                | Chromosome-specific LightGBM model file                       |
 - data_full_<trait>.npz contains arrays:
@@ -74,7 +74,7 @@ Arguments:
 | `--data_path`     | str  | Input path containing `data_preprocess/<gstp_name>/<trait>/`      |
 | `--save_path`     | str  | Output path where selected features will be saved                 |
 ### 2.3 Selected Feature Outputs
-After running ChromosomeAwareSelected.py, results are saved under:
+After running ChromosomeAwareSelected.py, the results are saved under:
 ```php-template
 data_selected/<gstp_name>/<trait>/
 ```
@@ -142,6 +142,7 @@ If you find this work useful, please cite: https://doi.org/10.1101/2024.12.29.63
   year    = {2024}
 }
 ```
+
 
 
 
